@@ -1,29 +1,46 @@
-name: "something"
-posessions:
-  - bar
-  - Towel
-  - Foo
-  
+name: "Starter Templates"
+starter-templates:
+  - name: "Project 1"
+    repo-url: ""
+    live-url: ""
+    description: ""
+    authors:
+      - "JimLynchCodes"
+      - "Pravant"
+    tags:
+      - "Chainink"
+      - "Ethereum"
+      - "Web3"
+  - name: "Project 2"
+    repo-url: ""
+    live-url: ""
+    description: ""
+    authors:
+      - "JimLynchCodes"
+      - "Pravant"
+    tags:
+      - "Chainink"
+      - "Ethereum"
+      - "Web3"
 # ---
 #  YAML Document starts with ---
 # Comments start with #
 # - - -
 # user_name: "Alicia"
-# Password: pinga123 * 
+# Password: pinga123 *
 # phone: 3256
 # TablesList:
-#   - EmployeeTable
+# - "EmployeeTable"
 #       -SoftwaresList
-#       -HardwareList 
-  # - Bar
-  # - Ok
+#       -HardwareList
+# - Bar
+# - Ok
 
 # ---
 # age: 42
 # posessions:
-  # - Towel
+# - Towel
 # # The master list for bss
-
 
 # doe: "a deer, a female deer"
 # ray: "a drop of golden sun"

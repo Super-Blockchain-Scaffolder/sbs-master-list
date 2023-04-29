@@ -13,5 +13,5 @@ We use specifically the [StrictYAML]() flavor of yaml. When you open a pull requ
 
 You can run this validation locally by running the python file:
 ```bash
-
+python3 validate-master-list-strict-yaml.py
 ```
