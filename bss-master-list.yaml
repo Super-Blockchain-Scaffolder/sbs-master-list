@@ -1,62 +1,25 @@
 name: "Starter Templates"
 starter-templates:
-  - name: "Project 1"
-    repo-url: ""
-    live-url: ""
-    description: ""
-    authors:
-      - "JimLynchCodes"
-      - "Pravant"
+  
+  - name: "Foundry Starter Kit"
+    repo-url: "https://github.com/smartcontractkit/foundry-starter-kit"
+    live-url: "https://github.com/smartcontractkit/foundry-starter-kit"
+    description: "A repo that shows developers how to quickly build, test, and deploy smart contracts with one of the fastest frameworks out there, foundry!"
+    maintainers:
+      - "?"
+    tags:
+      - "Foundry"
+      - "Solidity"
+      - "Ethereum"
+
+  - name: "Truffle Starter Kit [Chainlink]"
+    repo-url: "https://github.com/smartcontractkit/truffle-starter-kit"
+    live-url: "https://github.com/smartcontractkit/truffle-starter-kit"
+    description: "An example smart contract utilizing Chainlink."
+    maintainers:
+      - "?"
     tags:
       - "Chainink"
       - "Ethereum"
-      - "Web3"
-  - name: "Project 2"
-    repo-url: ""
-    live-url: ""
-    description: ""
-    authors:
-      - "JimLynchCodes"
-      - "Pravant"
-    tags:
-      - "Chainink"
-      - "Ethereum"
-      - "Web3"
-# ---
-#  YAML Document starts with ---
-# Comments start with #
-# - - -
-# user_name: "Alicia"
-# Password: pinga123 *
-# phone: 3256
-# TablesList:
-# - "EmployeeTable"
-#       -SoftwaresList
-#       -HardwareList
-# - Bar
-# - Ok
-
-# ---
-# age: 42
-# posessions:
-# - Towel
-# # The master list for bss
-
-# doe: "a deer, a female deer"
-# ray: "a drop of golden sun"
-# pi: 3.14159
-# xmas: true
-# french-hens: 3
-# calling-birds:
-#   - huey
-#   - dewey
-#   - louie
-#   - fred
-# xmas-fifth-day:
-#   calling-birds: four
-#   french-hens: 3
-#   golden-rings: 5
-#   partridges:
-#     count: 1
-#     location: "a pear tree"
-#   turtle-doves: two
+      - "Solidity"
+      - "Truffle"
