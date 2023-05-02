@@ -1,25 +1,25 @@
-name: "Starter Templates"
+name: Starter Templates
 starter-templates:
-  
-  - name: "Foundry Starter Kit"
-    repo-url: "https://github.com/smartcontractkit/foundry-starter-kit"
-    live-url: "https://github.com/smartcontractkit/foundry-starter-kit"
-    description: "A repo that shows developers how to quickly build, test, and deploy smart contracts with one of the fastest frameworks out there, foundry!"
+  - name: Foundry Starter Kit
+    repo-url: 'https://github.com/smartcontractkit/foundry-starter-kit'
+    live-url: 'https://github.com/smartcontractkit/foundry-starter-kit'
+    description: >-
+      A repo that shows developers how to quickly build, test, and deploy smart
+      contracts with one of the fastest frameworks out there, foundry!
     maintainers:
-      - "?"
+      - '?'
     tags:
-      - "Foundry"
-      - "Solidity"
-      - "Ethereum"
-
-  - name: "Truffle Starter Kit [Chainlink]"
-    repo-url: "https://github.com/smartcontractkit/truffle-starter-kit"
-    live-url: "https://github.com/smartcontractkit/truffle-starter-kit"
-    description: "An example smart contract utilizing Chainlink."
+      - Foundry
+      - Solidity
+      - Ethereum
+  - name: 'Truffle Starter Kit [Chainlink]'
+    repo-url: 'https://github.com/smartcontractkit/truffle-starter-kit'
+    live-url: 'https://github.com/smartcontractkit/truffle-starter-kit'
+    description: An example smart contract utilizing Chainlink.
     maintainers:
-      - "?"
+      - '?'
     tags:
-      - "Chainink"
-      - "Ethereum"
-      - "Solidity"
-      - "Truffle"
+      - Chainink
+      - Ethereum
+      - Solidity
+      - Truffle

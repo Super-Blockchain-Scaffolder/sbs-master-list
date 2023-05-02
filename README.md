@@ -15,3 +15,13 @@ You can run this validation locally by running the python file:
 ```bash
 python3 validate-master-list-strict-yaml.py
 ```
+
+## How to install?
+Virtual environment is already setted up, just activate that by this command and you are good to go!
+```
+source bss-master/bin/activate
+```
+Then you can just run this command:
+```
+python3 validate-master-list-strict-yaml.py
+```

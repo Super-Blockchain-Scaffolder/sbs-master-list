@@ -6,13 +6,12 @@ from strictyaml import load, Map, Str, Int, Seq, YAMLError
 # import yaml
 
 # schema = Map({"a": Int(), Optional("b", default={}): Map(), })
+f = open("bss-master-list.yaml", "r")
+try:
+    # person = load(stream, schema)
+    person = load(f.read())
 
-with open("bss-master-list.yaml", "r") as stream:
-    try:
-        # person = load(stream, schema)
-        person = load(stream)
-
-        print(person)
-    except YAMLError as error:
-        print(error)
+    print(person.as_yaml())
+except YAMLError as error:
+    print(error)
 
