@@ -25,3 +25,15 @@ Then you can just run this command:
 ```
 python3 validate-master-list-strict-yaml.py
 ```
+
+Note: you may also need to run this:
+```bash
+ python3 -m pip install strictyaml
+ ```
+
+
+ ### TODO
+
+ - validate that git repo exists for new submissions
+
+- validate that starters fit a schema
