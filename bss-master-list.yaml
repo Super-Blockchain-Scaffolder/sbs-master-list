@@ -44,5 +44,15 @@ starter-templates:
       - 'Go'
       - 'Solidity'
       - 'JavaScript'
+   - name: 'Chainlink Mix'
+    repo-url: 'https://github.com/smartcontractkit/chainlink-mix'
+    live-url: 'https://github.com/smartcontractkit/chainlink-mix'
+    description: 'Working with smart contracts with eth-brownie, python, and Chainlink.'
+    maintainers:
+      - '?'
+    tags:
+      - 'Chainlink'
+      - 'Ethereum
+      - 'Python'
      
      
