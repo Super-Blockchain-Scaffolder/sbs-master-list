@@ -44,5 +44,15 @@ starter-templates:
       - 'Go'
       - 'Solidity'
       - 'JavaScript'
+   - name: 'Chainlink Solana Starter'
+    repo-url: 'https://github.com/smartcontractkit/solana-starter-kit'
+    live-url: 'https://github.com/smartcontractkit/solana-starter-kit'
+    description: 'An an Anchor based program and client that shows developers how to use and interact with Chainlink Price Feeds on Solana.'
+    maintainers:
+      - '?'
+    tags:
+      - 'Chainlink'
+      - 'Solana'
+      - 'JavaScript'
      
      
