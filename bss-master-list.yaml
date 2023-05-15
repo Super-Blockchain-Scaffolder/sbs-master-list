@@ -54,5 +54,16 @@ starter-templates:
       - 'Chainlink'
       - 'Solana'
       - 'JavaScript'
+   - name: 'Apeworx Vyper Starter Kit'
+    repo-url: 'https://github.com/smartcontractkit/apeworx-starter-kit'
+    live-url: 'https://github.com/smartcontractkit/apeworx-starter-kit'
+    description: 'A repo dedicated to showing how to make smart contracts in a purely pythonic environment'
+    maintainers:
+      - '?'
+    tags:
+      - 'Chainlink'
+      - 'Ethereum'
+      - 'Python'
+      - 'Vyper'
      
      
