@@ -1,6 +1,6 @@
-name: Starter Templates
+name: 'Starter Templates'
 starter-templates:
-  - name: Foundry Starter Kit
+  - name: 'Foundry Starter Kit'
     repo-url: 'https://github.com/smartcontractkit/foundry-starter-kit'
     live-url: 'https://github.com/smartcontractkit/foundry-starter-kit'
     description: 'A repo that shows developers how to quickly build, test, and deploy smart contracts with one of the fastest frameworks out there, foundry!'
@@ -17,7 +17,7 @@ starter-templates:
     maintainers:
       - '?'
     tags:
-      - 'Chainink'
+      - 'Chainlink'
       - 'Ethereum'
       - 'Solidity'
       - 'Truffle'
@@ -28,9 +28,21 @@ starter-templates:
     maintainers:
       - '?'
     tags:
-      - 'Chainink'
+      - 'Chainlink'
       - 'Ethereum'
       - 'Solidity'
       - 'JavaScript'
       - 'Hardhat'
+   - name: 'Chainlink'
+    repo-url: 'https://github.com/smartcontractkit/chainlink'
+    live-url: 'https://github.com/smartcontractkit/chainlink'
+    description: 'Chainlink core node and contracts'
+    maintainers:
+      - '?'
+    tags:
+      - 'Chainlink'
+      - 'Go'
+      - 'Solidity'
+      - 'JavaScript'
+     
      
