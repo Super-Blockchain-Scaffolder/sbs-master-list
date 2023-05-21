@@ -65,5 +65,36 @@ starter-templates:
       - 'Ethereum'
       - 'Python'
       - 'Vyper'
-     
+  - name: 'Hashlips Generative Art Engine'
+    repo-url: 'https://github.com/HashLips/hashlips_art_engine'
+    live-url: 'https://github.com/HashLips/hashlips_art_engine'
+    description: 'A tool used to create multiple different instances of artworks based on provided layers.'
+    maintainers:
+      - 'Hashlips - https://github.com/HashLips'
+    tags:
+      - 'NFT'
+      - 'Generative Art'
+      - 'JavaScript'
+      - 'NodeJs'
+  - name: 'Hashlips Solidity Smart Contracts'
+    repo-url: 'https://github.com/HashLips/solidity_smart_contracts'
+    live-url: 'https://github.com/HashLips/solidity_smart_contracts'
+    description: 'A list of smart contracts coded in solidity.'
+    maintainers:
+      - 'Hashlips - https://github.com/HashLips'
+    tags:
+      - 'Ethereum'
+      - 'Solidity'
+      - 'NFT'
+  - name: 'Hashlips NFT Contract'
+    repo-url: 'https://github.com/HashLips/hashlips_nft_contract'
+    live-url: 'https://github.com/HashLips/hashlips_nft_contract'
+    description: 'A simple NFT smart contract that works with the rest of the HashLips ecosystem.'
+    maintainers:
+      - 'Hashlips - https://github.com/HashLips'
+    tags:
+      - 'Ethereum'
+      - 'Solidity'
+      - 'NFT'
+      
      
