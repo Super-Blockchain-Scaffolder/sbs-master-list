@@ -259,3 +259,18 @@ starter-templates:
       - "Web3"
       - "JavaScript"
       - "smartcontractkit"
+
+  - name: "zk-starter (cawfree)"
+    repo-url: "https://github.com/cawfree/zk-starter"
+    live-url: "https://github.com/cawfree/zk-starter"
+    description: "Zero knowledge for those with zero knowledge."
+    maintainers:
+      - "?"
+    tags:
+      - "Solidity"
+      - "Etherum"
+      - "Cryptography"
+      - "Stark"
+      - "Snark"
+      - "zk"
+      - "smartcontractkit"
