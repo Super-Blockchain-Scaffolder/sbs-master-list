@@ -1,20 +1,42 @@
 name: "Starter Templates"
 starter-templates:
-  
-  - name: "Chainlink Functions Starter Kit"
-    repo-url: "https://github.com/smartcontractkit/functions-hardhat-starter-kit"
-    live-url: "https://github.com/smartcontractkit/functions-hardhat-starter-kit"
-    description: "Chainlink Functions allows users to request data from almost any API and perform custom computation using JavaScript."
+  - name: "Hardhat Starter Kit JavaScript (smartcontractkit)"
+    repo-url: "https://github.com/smartcontractkit/hardhat-starter-kit"
+    live-url: "https://github.com/smartcontractkit/hardhat-starter-kit"
+    description: "A repo for boilerplate code for testing, deploying, and shipping chainlink solidity code with tests in JavaScript."
+    maintainers:
+      - "?"
+    tags:
+      - "Hardhat"
+      - "Chainlink"
+      - "JavaScript"
+      - "smartcontractkit"
+
+  - name: "Hardhat Starter Kit TypeScript (smartcontractkit)"
+    repo-url: "https://github.com/smartcontractkit/hardhat-starter-kit"
+    live-url: "https://github.com/smartcontractkit/hardhat-starter-kit"
+    description: "A repo for boilerplate code for testing, deploying, and shipping chainlink solidity code with tests in TypeScript."
+    maintainers:
+      - "?"
+    tags:
+      - "Hardhat"
+      - "Chainlink"
+      - "TypeScript"
+      - "smartcontractkit"
+
+  - name: "Chainlink Brownie Mix (smartcontractkit)"
+    repo-url: "https://github.com/smartcontractkit/chainlink-mix"
+    live-url: "https://github.com/smartcontractkit/chainlink-mix"
+    description: "Working with smart contracts with eth-brownie, python, and Chainlink."
     maintainers:
       - "?"
     tags:
       - "Chainlink"
       - "Ethereum"
-      - "Solidity"
-      - "JavaScript"
-      - "Hardhat"
-  
-  - name: "Foundry Starter Kit"
+      - "Python"
+      - "smartcontractkit"
+
+  - name: "Foundry Starter Kit (smartcontractkit)"
     repo-url: "https://github.com/smartcontractkit/foundry-starter-kit"
     live-url: "https://github.com/smartcontractkit/foundry-starter-kit"
     description: "A repo that shows developers how to quickly build, test, and deploy smart contracts with one of the fastest frameworks out there, foundry!"
@@ -24,8 +46,8 @@ starter-templates:
       - "Foundry"
       - "Solidity"
       - "Ethereum"
-  
-  - name: "Truffle Starter Kit [Chainlink]"
+
+  - name: "Truffle Starter Kit (smartcontractkit)"
     repo-url: "https://github.com/smartcontractkit/truffle-starter-kit"
     live-url: "https://github.com/smartcontractkit/truffle-starter-kit"
     description: "An example smart contract utilizing Chainlink."
@@ -36,6 +58,7 @@ starter-templates:
       - "Ethereum"
       - "Solidity"
       - "Truffle"
+      - "JavaScrtip"
 
   - name: "Chainlink"
     repo-url: "https://github.com/smartcontractkit/chainlink"
@@ -49,7 +72,7 @@ starter-templates:
       - "Solidity"
       - "JavaScript"
 
-  - name: "Chainlink Solana Starter"
+  - name: "Chainlink Anchor Solana Starter (smartcontractkit)"
     repo-url: "https://github.com/smartcontractkit/solana-starter-kit"
     live-url: "https://github.com/smartcontractkit/solana-starter-kit"
     description: "An an Anchor based program and client that shows developers how to use and interact with Chainlink Price Feeds on Solana."
@@ -58,9 +81,12 @@ starter-templates:
     tags:
       - "Chainlink"
       - "Solana"
+      - "Anchor"
+      - "Rust"
       - "JavaScript"
+      - "smartcontractkit"
 
-  - name: "Apeworx Vyper Starter Kit"
+  - name: "Apeworx Vyper Starter Kit (smartcontractkit)"
     repo-url: "https://github.com/smartcontractkit/apeworx-starter-kit"
     live-url: "https://github.com/smartcontractkit/apeworx-starter-kit"
     description: "A repo dedicated to showing how to make smart contracts in a purely pythonic environment"
@@ -71,6 +97,19 @@ starter-templates:
       - "Ethereum"
       - "Python"
       - "Vyper"
+      - "smartcontractkit"
+
+  - name: "Huff Starter Kit (smartcontractkit)"
+    repo-url: "https://github.com/smartcontractkit/huff-starter-kit"
+    live-url: "https://github.com/smartcontractkit/huff-starter-kit"
+    description: "A template repo to work with huff smart contracts and learn about low level EVM opcodes. Also Horse ♘."
+    maintainers:
+      - "?"
+    tags:
+      - "Huff"
+      - "Foundry"
+      - "Ethereum"
+      - "Chainlink"
 
   - name: "Hashlips Generative Art Engine"
     repo-url: "https://github.com/HashLips/hashlips_art_engine"
@@ -120,3 +159,103 @@ starter-templates:
       - "dapp"
       - "ethers"
 
+  - name: "Chainlink Functions Starter Kit"
+    repo-url: "https://github.com/smartcontractkit/functions-hardhat-starter-kit"
+    live-url: "https://github.com/smartcontractkit/functions-hardhat-starter-kit"
+    description: "Chainlink Functions allows users to request data from almost any API and perform custom computation using JavaScript."
+    maintainers:
+      - "?"
+    tags:
+      - "Chainlink"
+      - "Ethereum"
+      - "Solidity"
+      - "JavaScript"
+      - "Hardhat"
+      - "Chainlink Functions"
+
+  - name: "Chainlink External Adapters TypeScript (smartcontractkit)"
+    repo-url: "https://github.com/smartcontractkit/external-adapters-js"
+    live-url: "https://github.com/smartcontractkit/external-adapters-js"
+    description: "Monorepo containing JavaScript implementation of external adapters."
+    maintainers:
+      - "?"
+    tags:
+      - "Chainlink"
+      - "Ethereum"
+      - "TypeScript"
+      - "Hardhat"
+      - "Jest"
+      - "Yarn"
+
+  - name: "Cairo Starter Kit"
+    repo-url: "https://github.com/smartcontractkit/cairo-starter-kit"
+    live-url: "https://github.com/smartcontractkit/cairo-starter-kit"
+    description: "The boilerplate code for getting started with the usage of Chainlink services on Starknet."
+    maintainers:
+      - "?"
+    tags:
+      - "Cairo"
+      - "Hardhat"
+      - "Chainlink"
+      - "TypeScript"
+
+  - name: "Full Blockchain Solidity Course JS"
+    repo-url: "https://github.com/smartcontractkit/full-blockchain-solidity-course-js"
+    live-url: "https://github.com/smartcontractkit/full-blockchain-solidity-course-js"
+    description: "Learn Blockchain, Solidity, and Full Stack Web3 Development with Javascript."
+    maintainers:
+      - "?"
+    tags:
+      - "Cairo"
+      - "Hardhat"
+      - "Chainlink"
+      - "JavaScript"
+      - "TypeScript"
+      - "ReactJs"
+      - "Ipfs"
+      - "Moralist"
+      - "The Graph Protocol"
+      - "Ethereum"
+      - "Solidity"
+      - "DAO"
+      - "Web3"
+
+  - name: "Full Blockchain Solidity Course Py"
+    repo-url: "https://github.com/smartcontractkit/full-blockchain-solidity-course-py"
+    live-url: "https://github.com/smartcontractkit/full-blockchain-solidity-course-py"
+    description: "The Ultimate Solidity, Blockchain, and Smart Contract - Beginner to Expert Full Course | Python Edition."
+    maintainers:
+      - "?"
+    tags:
+      - "Dapp"
+      - "Solidity"
+      - "Chainlink"
+      - "Python"
+      - "Etherum"
+      - "Web3"
+      - "smartcontractkit"
+
+  - name: "Defi Minimal (smartcontractkit)"
+    repo-url: "https://github.com/smartcontractkit/defi-minimal"
+    live-url: "https://github.com/smartcontractkit/defi-minimal"
+    description: "Example and sample projects."
+    maintainers:
+      - "?"
+    tags:
+      - "Solidity"
+      - "Etherum"
+      - "Web3"
+      - "smartcontractkit"
+
+  - name: "Smart Contract Examples (smartcontractkit)"
+    repo-url: "https://github.com/smartcontractkit/smart-contract-examples"
+    live-url: "https://github.com/smartcontractkit/smart-contract-examples"
+    description: "This repo is dedicated to making minimal repos of existing defi primatives."
+    maintainers:
+      - "?"
+    tags:
+      - "Solidity"
+      - "Etherum"
+      - "Web3"
+      - "JavaScript"
+      - "smartcontractkit"
