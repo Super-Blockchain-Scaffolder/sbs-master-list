@@ -115,8 +115,7 @@ starter-templates:
     repo-url: "https://github.com/privy-io/auth-demo"
     live-url: "https://github.com/privy-io/auth-demo"
     description: "Simple demo for Privy Auth - browser and mobile optimized."
-    maintainers:
-    
+    maintainers: 
       - "@asta-li"
       - "@nichochar"
     tags:
