@@ -1,6 +1,6 @@
 name: "Starter Templates"
 starter-templates:
-  - name: "Hardhat Starter Kit JavaScript (smartcontractkit)"
+  - name: "Hardhat Starter Kit JavaScript / TypeScript (smartcontractkit)"
     repo-url: "https://github.com/smartcontractkit/hardhat-starter-kit"
     live-url: "https://github.com/smartcontractkit/hardhat-starter-kit"
     description: "A repo for boilerplate code for testing, deploying, and shipping chainlink solidity code with tests in JavaScript."
@@ -10,18 +10,6 @@ starter-templates:
       - "Hardhat"
       - "Chainlink"
       - "JavaScript"
-      - "smartcontractkit"
-
-  - name: "Hardhat Starter Kit TypeScript (smartcontractkit)"
-    repo-url: "https://github.com/smartcontractkit/hardhat-starter-kit"
-    live-url: "https://github.com/smartcontractkit/hardhat-starter-kit"
-    description: "A repo for boilerplate code for testing, deploying, and shipping chainlink solidity code with tests in TypeScript."
-    maintainers:
-      - "?"
-    tags:
-      - "Hardhat"
-      - "Chainlink"
-      - "TypeScript"
       - "smartcontractkit"
 
   - name: "Chainlink Brownie Mix (smartcontractkit)"
