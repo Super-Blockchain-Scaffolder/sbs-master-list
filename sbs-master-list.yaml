@@ -99,6 +99,19 @@ starter-templates:
       - "Ethereum"
       - "Chainlink"
 
+  - name: "Privy Auth Demo"
+    repo-url: "https://github.com/privy-io/auth-demo"
+    live-url: "https://github.com/privy-io/auth-demo"
+    description: "Simple demo for Privy Auth - browser and mobile optimized."
+    maintainers: 
+      - "@asta-li"
+      - "@nichochar"
+    tags:
+      - "Privy"
+      - "Ethereum"
+      - "Web3"
+      - "Auth"
+
   - name: "Hashlips Generative Art Engine"
     repo-url: "https://github.com/HashLips/hashlips_art_engine"
     live-url: "https://github.com/HashLips/hashlips_art_engine"
