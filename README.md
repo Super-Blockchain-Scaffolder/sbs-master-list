@@ -8,6 +8,8 @@ Want to add your own awesoem project as a starter for the sbs cli tool? Well luc
 
 Just update the `sbs-master-list.yaml` file in this repository with the necessary information, and that's all there is to it!
 
+<br/>
+
 ## Validating The Yaml
 We use specifically the [StrictYAML]() flavor of yaml. When you open a pull request CI jobs should automatically kick off to validate that the yaml file with your edits is still valid StrictYAML syntax.
 
@@ -15,6 +17,14 @@ You can run this validation locally by running the python file:
 ```bash
 python3 validate-master-list-strict-yaml.py
 ```
+
+<br/>
+
+## Python Setup
+
+Make sure you have python version at least 3.10 installed.
+
+<br/>
 
 ## How to install?
 Virtual environment is already setted up, just activate that by this command and you are good to go!
@@ -28,9 +38,9 @@ python3 validate-master-list-strict-yaml.py
 
 Note: you may also need to run this:
 ```bash
- python3 -m pip install strictyaml
+python3 -m pip install strictyaml
  ```
-
+<br/>
 
  ### TODO
 
