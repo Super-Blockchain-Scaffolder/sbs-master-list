@@ -3,6 +3,9 @@ from yaml import Loader
 # document = open("bss-master-list.yaml", "r").read()
 # print(json.dumps(yaml.load(document, Loader=Loader), indent=2))
 
+allFields=["name","repo-url","live-url","description","maintainers","tags"]
+outerFields=["name","starter-templates"]    
+
 def typeChecker(value,typeExpected):
     if(type(value) is not typeExpected or value==None):
         return False
@@ -21,8 +24,13 @@ class myYAMLParser:
 
     def __validateSchemaOfStarter(self,starterData):
         try:
+            index = 0
             for key,value in starterData.items():
-                
+                if(key!=allFields[index]):
+                    print(key,allFields[index])
+                    raise Exception("Incorrect syntax for the starter template. Please enter the correct key:"+allFields[index]+" instead of "+key+" for the starter template.")
+
+                index+=1
                 match key:
                     case "name":
                         if(typeChecker(value,str)==False):
@@ -49,7 +57,14 @@ class myYAMLParser:
     
     def validateSchema(self):
         try:
+            index=0
             for key,value in self.fileDictionary.items():
+                
+                if(index<2):
+                    if(key!=outerFields[index]):
+                        raise Exception("Incorrect syntax for the starter template. Please enter the correct key:"+outerFields[index]+" instead of "+key+" for the starter template.")
+                index+=1
+
                 match key:
                     case "name":
                         if(typeChecker(value,str)==False):
@@ -60,25 +75,27 @@ class myYAMLParser:
                         else:
                             for starter in value:
                                 if(self.__validateSchemaOfStarter(starter)==False):
-                                    raise Exception("starter template is not valid for the starter: {starter}")
+                                    raise Exception("starter template is not valid for the starter:"+starter["name"])
                     case other:
-                        print(";",key,";")
+                        # print(";",key,";")
                         raise Exception("Incorrect syntax for the starter template")
             return True
         except Exception as error:
             print(error)
             Exception("Error ${error}")
             return False
+    def checkRepoUrl(self,url):
+        pass
 
 yamlParser = myYAMLParser()
 
-fileRawData = open("bss-master-list.yaml", "r").read()
+fileRawData = open("sbs-master-list.yaml", "r").read()
 yamlParser.fileRawData = fileRawData
 yamlParser.readYamlFile()
 
-print()
-print("-----File dictionary data:------")
-print(yamlParser.fileDictionary)
+# print()
+# print("-----File dictionary data:------")
+# print(yamlParser.fileDictionary)
 
 print()
 print("-----Checking the file:------")
