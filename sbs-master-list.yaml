@@ -1,5 +1,43 @@
 name: "Starter Templates"
 starter-templates:
+  - name: "Truffle Starter Kit (smartcontractkit)"
+    repo-url: "https://github.com/smartcontractkit/truffle-starter-kit"
+    live-url: "https://github.com/smartcontractkit/truffle-starter-kit"
+    description: "An example smart contract utilizing Chainlink."
+    maintainers:
+      - text: "?"
+        link: "https://github.com/search?q=%3F%3F%3F%3F%3F%3F%3F%3F%3F%3F%3F%3F%3F%3F%3F%3F%3F%3F%3F%3F%3F%3F%3F%3F%3F%3F%3F%3F%3F%3F&type=repositories"
+    tags:
+      - "Chainlink"
+      - "Ethereum"
+      - "Solidity"
+      - "Truffle"
+      - "JavaScript"
+
+  - name: "Truflation Quickstart"
+    repo-url: "https://github.com/truflation/quickstart"
+    live-url: "https://github.com/truflation/quickstart"
+    description: "The demonstration smart contracts provide a simple interface to retrieve the current year-on-year truflation index for US CPI."
+    maintainers:
+      - text: "Joseph Wang"
+        link: "https://github.com/joequant"
+    tags:
+      - "Solidity"
+      - "TypeScript"
+      - "Truflation"
+
+  - name: "Truflation NFT Index Adapter"
+    repo-url: "https://github.com/truflation/nft-index-adapter"
+    live-url: "https://github.com/truflation/nft-index-adapter"
+    description: "The Top11 NFT is the aggregate of the top 11 NFT collections (ERC721) price indexes, including Bored Ape Yacht Club, Crypto Punks, and Mutant Ape Yacht Club."
+    maintainers:
+      - text: "Joseph Wang"
+        link: "https://github.com/joequant"
+    tags:
+      - "Solidity"
+      - "JavaScript"
+      - "NFT"
+
   - name: "Chainlink Brownie Mix (smartcontractkit)"
     repo-url: "https://github.com/smartcontractkit/chainlink-mix"
     live-url: "https://github.com/smartcontractkit/chainlink-mix"
@@ -24,20 +62,6 @@ starter-templates:
       - "Foundry"
       - "Solidity"
       - "Ethereum"
-
-  - name: "Truffle Starter Kit (smartcontractkit)"
-    repo-url: "https://github.com/smartcontractkit/truffle-starter-kit"
-    live-url: "https://github.com/smartcontractkit/truffle-starter-kit"
-    description: "An example smart contract utilizing Chainlink."
-    maintainers:
-      - text: "?"
-        link: "https://github.com/search?q=%3F%3F%3F%3F%3F%3F%3F%3F%3F%3F%3F%3F%3F%3F%3F%3F%3F%3F%3F%3F%3F%3F%3F%3F%3F%3F%3F%3F%3F%3F&type=repositories"
-    tags:
-      - "Chainlink"
-      - "Ethereum"
-      - "Solidity"
-      - "Truffle"
-      - "JavaScript"
 
   - name: "Chainlink Anchor Solana Starter (smartcontractkit)"
     repo-url: "https://github.com/smartcontractkit/solana-starter-kit"
@@ -294,3 +318,15 @@ starter-templates:
       - "Snark"
       - "zk"
       - "smartcontractkit"
+
+  - name: "Amazon Managed Blockchain Workshop"
+    repo-url: "https://github.com/aws-samples/non-profit-blockchain"
+    live-url: "https://github.com/aws-samples/non-profit-blockchain"
+    description: "Builds a blockchain network and application to track donations to non-profit organizations, using Amazon Managed Blockchain"
+    maintainers:
+      - text: "?"
+        link: "https://github.com/search?q=%3F%3F%3F%3F%3F%3F%3F%3F%3F%3F%3F%3F%3F%3F%3F%3F%3F%3F%3F%3F%3F%3F%3F%3F%3F%3F%3F%3F%3F%3F&type=repositories"
+    tags:
+      - "JavaScript"
+      - "TypeScript"
+      - "AWS"
