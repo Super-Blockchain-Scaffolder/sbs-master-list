@@ -12,3 +12,15 @@ starter-templates:
       - "Ethereum"
       - "Python"
       - "smartcontractkit"
+
+  - name: "Foundry Starter Kit (smartcontractkit)"
+    repo-url: "https://github.com/smartcontractkit/foundry-starter-kit"
+    live-url: "https://github.com/smartcontractkit/foundry-starter-kit"
+    description: "A repo that shows developers how to quickly build, test, and deploy smart contracts with one of the fastest frameworks out there, foundry!"
+    maintainers:
+      - text: "?"
+        link: "https://github.com/search?q=%3F%3F%3F%3F%3F%3F%3F%3F%3F%3F%3F%3F%3F%3F%3F%3F%3F%3F%3F%3F%3F%3F%3F%3F%3F%3F%3F%3F%3F%3F&type=repositories"
+    tags:
+      - "Foundry"
+      - "Solidity"
+      - "Ethereum"
